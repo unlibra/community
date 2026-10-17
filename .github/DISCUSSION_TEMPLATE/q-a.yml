@@ -1,0 +1,33 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        使い方の質問や、うまく動かないときの相談はこちらへどうぞ。
+        不具合だと分かっている場合は Bug reports に投稿してください。
+  - type: input
+    id: product
+    attributes:
+      label: 対象プロダクト
+      description: プロダクト名を書いてください。
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: 質問内容
+      description: 知りたいこと、困っていることを書いてください。
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: 試したこと
+      description: 試した手順や、参照したドキュメントがあれば書いてください。
+  - type: textarea
+    id: environment
+    attributes:
+      label: 環境
+      description: 関係がありそうなら、OS、プロダクトのバージョン、関連ソフトのバージョンなどを書いてください。
+      placeholder: |
+        OS：Windows 11
+        バージョン：1.2.0

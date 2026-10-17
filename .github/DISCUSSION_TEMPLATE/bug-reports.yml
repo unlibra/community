@@ -1,0 +1,42 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        不具合の報告はこちらへどうぞ。
+        パスワードや個人情報は書かないでください。ログを貼る場合も確認してから投稿してください。
+  - type: input
+    id: product
+    attributes:
+      label: 対象プロダクト
+      description: プロダクト名を書いてください。
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 不具合の内容
+      description: 何が起きたか、本来どうなるはずだったかを書いてください。
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 再現手順
+      description: 分かる範囲で、不具合が起きるまでの操作を書いてください。
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+  - type: textarea
+    id: environment
+    attributes:
+      label: 環境
+      description: OS、プロダクトのバージョン、関連ソフトのバージョンなどを書いてください。
+      placeholder: |
+        OS：Windows 11
+        バージョン：1.2.0
+  - type: textarea
+    id: logs
+    attributes:
+      label: ログ・スクリーンショット
+      description: エラーメッセージやスクリーンショットがあれば貼ってください。

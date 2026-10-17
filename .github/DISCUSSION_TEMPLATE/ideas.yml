@@ -1,0 +1,24 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        機能の追加や改善の要望はこちらへどうぞ。
+  - type: input
+    id: product
+    attributes:
+      label: 対象プロダクト
+      description: プロダクト名を書いてください。
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: 要望内容
+      description: ほしい機能や、改善してほしい点を書いてください。
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: 理由・使いたい場面
+      description: どんな場面で困っているか、なぜ必要かを書いてください。
