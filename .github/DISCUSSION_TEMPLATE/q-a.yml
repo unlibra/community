@@ -3,7 +3,7 @@ body:
     attributes:
       value: |
         使い方の質問や、うまく動かないときの相談はこちらへどうぞ。
-        不具合だと分かっている場合は Bug reports に投稿してください。
+        不具合だと分かっている場合は Issues で報告してください。
   - type: input
     id: product
     attributes:

@@ -1,8 +1,11 @@
+name: 不具合の報告
+description: unlibra のプロダクトの不具合を報告する
+labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        不具合の報告はこちらへどうぞ。
+        不具合の報告はこちらへどうぞ。使い方の質問は Discussions の Q&A へお願いします。
         パスワードや個人情報は書かないでください。ログを貼る場合も確認してから投稿してください。
   - type: input
     id: product
