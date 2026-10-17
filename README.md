@@ -2,7 +2,7 @@
 
 > **English is also welcome.** This is the shared support hub for all unlibra products. Please report bugs in [Issues](https://github.com/unlibra/community/issues), and post questions and feature requests in [Discussions](https://github.com/unlibra/community/discussions).
 
-unlibra が公開しているすべてのプロダクトについての、共通の問い合わせ窓口です。
+[unlibra](https://github.com/unlibra) が公開しているすべてのプロダクトについての、共通の問い合わせ窓口です。
 不具合の報告は [Issues](https://github.com/unlibra/community/issues) で、質問、機能の要望、その他の話題は [Discussions](https://github.com/unlibra/community/discussions) で受け付けています。
 
 ## 投稿先
