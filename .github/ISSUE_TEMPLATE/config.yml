@@ -3,6 +3,6 @@ contact_links:
   - name: 質問・相談（Q&A）
     url: https://github.com/unlibra/community/discussions/categories/q-a
     about: 使い方の質問や、うまく動かないときの相談はこちら
-  - name: 機能の要望（Ideas）
-    url: https://github.com/unlibra/community/discussions/categories/ideas
-    about: 機能の追加や改善の要望はこちら
+  - name: 機能の要望・その他（General）
+    url: https://github.com/unlibra/community/discussions/categories/general
+    about: 機能の要望、感想、その他の話題はこちら

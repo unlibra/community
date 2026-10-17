@@ -1,0 +1,23 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        機能の要望、感想、その他の話題はこちらへどうぞ。
+        使い方の質問は Q&A へ、不具合の報告は Issues へお願いします。
+  - type: input
+    id: product
+    attributes:
+      label: 対象プロダクト
+      description: 特定のプロダクトについての話なら、プロダクト名を書いてください。
+  - type: textarea
+    id: content
+    attributes:
+      label: 内容
+      description: 要望、感想、話したいことなどを書いてください。
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: 理由・使いたい場面
+      description: 機能の要望の場合は、どんな場面で困っているか、なぜ必要かを書いてください。
